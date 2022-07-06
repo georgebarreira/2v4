@@ -1,0 +1,45 @@
+/* Navbar */
+
+.navbar-dark .navbar-brand{
+  text-align: center;
+
+}
+
+.img_brand {
+  width: 20%;
+}
+
+.nav-item{
+  padding: 0 15%;
+
+}
+
+#title .container-fluid {
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+#title{
+  text-align: center;
+}
+
+  .navbar-dark .navbar-brand{
+    text-align: center;
+
+  }
+  .nav-item{
+    padding: 1% 1%;
+  }
+  .nav-link {
+    padding: 0;
+  }
+  .navbar-brand{
+    margin: 0;
+    padding: 0;
+  }
+  .nav-content {
+    padding: 0 7%;
+  }
+  .navbar-dark .navbar-brand{
+    text-align: left;
+}
