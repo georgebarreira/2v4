@@ -1,5 +1,9 @@
 /* Navbar */
 
+.navbar{
+  padding: 0 2.5rem;
+}
+
 .navbar-dark .navbar-brand{
   text-align: center;
 
@@ -16,6 +20,11 @@
 
 #title .container-fluid {
   padding: 0;
+  text-align: center;
+}
+
+.title-image{
+  width: 35%;
 }
 
 @media (max-width: 991px) {
@@ -42,4 +51,22 @@
   }
   .navbar-dark .navbar-brand{
     text-align: left;
+}
+}
+
+/* whatsappicon */
+
+.whatsappicon {
+  position:fixed;
+  width:45px;
+  height:45px;
+  bottom:5%;
+  right:5%;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
 }
