@@ -1,21 +1,23 @@
 /* Navbar */
-
-.navbar{
-  padding: 0 2.5rem;
+.navbar {
+  padding: 0;
 }
 
-.navbar-dark .navbar-brand{
-  text-align: center;
-
+.navbar-dark .navbar-brand {
+  text-align: right;
 }
 
 .img_brand {
   width: 20%;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 15%;
+}
 
+/* Title */
+#title {
+  background-color: #000;
 }
 
 #title .container-fluid {
@@ -23,50 +25,116 @@
   text-align: center;
 }
 
-.title-image{
-  width: 35%;
+.title-image {
+  width: 50%;
 }
 
-@media (max-width: 991px) {
-#title{
+.title-column {
+  padding: 7% 15.5% 5%;
+}
+
+.big-heading {
+  color: gold;
+  line-height: 2;
   text-align: center;
 }
 
-  .navbar-dark .navbar-brand{
-    text-align: center;
+.smal-heading {
+  text-align: center;
+  color: grey;
+  line-height: 1.5;
+}
 
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
   }
-  .nav-item{
+
+  .navbar-dark .navbar-brand {
+    text-align: center;
+  }
+
+  .nav-item {
     padding: 1% 1%;
   }
+
   .nav-link {
     padding: 0;
   }
-  .navbar-brand{
+
+  .navbar-brand {
     margin: 0;
     padding: 0;
   }
+
   .nav-content {
     padding: 0 7%;
   }
-  .navbar-dark .navbar-brand{
+
+  .navbar-dark .navbar-brand {
     text-align: left;
-}
+  }
 }
 
-/* whatsappicon */
+/* Features */
+.feature-box {
+  text-align: center;
+  font-family: "Montserrat-bold";
+  line-height: 2;
+}
 
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Baterias */
+#baterias {
+  background-color: #000;
+}
+
+.baterias-image {
+  width: 30%;
+}
+
+/* footer */
+#footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.fa-footer {
+  color: #fff;
+  padding: 5% 5%;
+}
+
+#footer a:hover {
+  opacity: 0.7;
+}
+
+/* footer icons */
+.fa-ahuman {
+  padding: 1% 1%;
+}
+
+/* fixed whatsappicon */
 .whatsappicon {
-  position:fixed;
-  width:45px;
-  height:45px;
-  bottom:5%;
-  right:5%;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 5%;
+  right: 5%;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
   box-shadow: 1px 1px 2px #888;
-  z-index:1000;
+  z-index: 1000;
+}
+
+.pricing-column {
+  text-align: center;
+  padding: 2% 3%;
 }
