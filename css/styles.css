@@ -31,6 +31,7 @@
 
 .title-column {
   padding: 7% 15.5% 5%;
+  margin: 0;
 }
 
 .big-heading {
@@ -134,7 +135,14 @@
   z-index: 1000;
 }
 
+/* Baterias */
+
 .pricing-column {
   text-align: center;
   padding: 2% 3%;
+}
+
+.section-heading{
+  padding: 0 0 6% 0;
+  line-height: 1.5;
 }
