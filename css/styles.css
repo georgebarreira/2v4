@@ -68,6 +68,16 @@
   width: 30%;
 }
 
+.link-bateria{
+  color: #fff;
+  text-decoration: none;
+}
+.link-bateria:hover {
+  opacity: 50%;
+  
+  color: #fff;
+}
+
 /* footer */
 #footer {
   background-color: #000;
