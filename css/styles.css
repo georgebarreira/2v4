@@ -169,5 +169,15 @@
   .img_brand {
     width: 38%;
   }
+  .whatsappicon {
+    font-size: 5rem;
+
+  }
+  #cobertura h3{
+    font-size: 3rem;
+  }
+  #cobertura p {
+    font-size: 1.5rem;
+  }
 
 }
