@@ -46,8 +46,6 @@
   line-height: 1.5;
 }
 
-
-
 /* Features */
 .feature-box {
   text-align: center;
@@ -68,17 +66,17 @@
   width: 30%;
 }
 
-.link-bateria{
+.link-bateria {
   color: #fff;
   text-decoration: none;
 }
+
 .link-bateria:hover {
   opacity: 50%;
-
   color: #fff;
 }
 
-.w-100{
+.w-100 {
   padding: 0;
 }
 
@@ -113,47 +111,38 @@
   right: 7%;
   background-color: ;
   color: #25d366;
-
   text-align: center;
   font-size: 4rem;
-
   z-index: 1000;
 }
 
 /* Baterias */
-
 .pricing-column {
   text-align: center;
   padding: 2% 3%;
 }
 
-.section-heading{
+.section-heading {
   padding: 0 0 6% 0;
   line-height: 1.5;
 }
 
 /* product */
-
-
-.product-column{
+.product-column {
   background-color: #fff;
   padding: 7% 15%;
-
 }
 
-.product-column .title-image{
+.product-column .title-image {
   padding-bottom: 8%;
   width: 100%;
 }
 
-.product-column .big-heading{
+.product-column .big-heading {
   color: #000;
 }
 
-.product-column .link-bateria{
-
-}
-
+.product-column .link-bateria {}
 
 @media (max-width: 991px) {
   #title {
@@ -185,47 +174,59 @@
   .navbar-dark .navbar-brand {
     text-align: left;
   }
+
   .big-heading {
     color: gold;
     line-height: 2;
     text-align: center;
     font-size: 4rem;
   }
-  .smal-heading{
+
+  .smal-heading {
     font-size: 2rem;
   }
-  .feature-title{
+
+  .feature-title {
     font-size: 2rem;
   }
-  .features-paragraf{
+
+  .features-paragraf {
     font-size: 1.5rem;
   }
+
   .title-image {
     width: 40%;
   }
+
   .img_brand {
     width: 38%;
   }
+
   .whatsappicon {
     font-size: 5rem;
-
   }
-  #cobertura h3{
+
+  #cobertura h3 {
     font-size: 3rem;
   }
+
   #cobertura p {
     font-size: 1.5rem;
   }
+
   #baterias p {
     font-size: 1.5rem;
   }
-  .btn-lg{
+
+  .btn-lg {
     font-size: 3rem;
   }
-  
-  .product-column .title-image{
+
+  .product-column .title-image {
     width: 60%;
   }
 
-
+  .product-prop {
+    font-size: 3rem;
+  }
 }
