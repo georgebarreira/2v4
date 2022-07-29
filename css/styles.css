@@ -78,6 +78,10 @@
   color: #fff;
 }
 
+.w-100{
+  padding: 0;
+}
+
 /* footer */
 #footer {
   background-color: #000;
@@ -127,6 +131,29 @@
   padding: 0 0 6% 0;
   line-height: 1.5;
 }
+
+/* product */
+
+
+.product-column{
+  background-color: #fff;
+  padding: 7% 15%;
+
+}
+
+.product-column .title-image{
+  padding-bottom: 8%;
+  width: 100%;
+}
+
+.product-column .big-heading{
+  color: #000;
+}
+
+.product-column .link-bateria{
+
+}
+
 
 @media (max-width: 991px) {
   #title {
