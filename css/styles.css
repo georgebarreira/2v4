@@ -216,5 +216,16 @@
   #cobertura p {
     font-size: 1.5rem;
   }
+  #baterias p {
+    font-size: 1.5rem;
+  }
+  .btn-lg{
+    font-size: 3rem;
+  }
+  
+  .product-column .title-image{
+    width: 60%;
+  }
+
 
 }
