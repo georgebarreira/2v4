@@ -168,6 +168,7 @@ a {
   .product-description{
     text-align: left;
     padding-top: 2%;
+    margin-top: 2%;
   }
 
   .product-prop {
@@ -268,6 +269,8 @@ a {
   .product-description{
     text-align: center;
     font-size: 2.5rem;
+    margin-top: 4%;
+
   }
   #baterias .container-fluid{
     padding-top: 12%;
