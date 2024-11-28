@@ -1,4 +1,4 @@
-# Site de redirecionamento de Vendas de Baterias para veiculos.
+# Site de redirecionamento de Vendas de Baterias para veículos.
 
 # Redirecting and Sales Veichles Battery Web Site
 
